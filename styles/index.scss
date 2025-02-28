@@ -1,0 +1,80 @@
+$defaultxt {
+.mulish-<uniquifier> {
+    font-family: "Mulish", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+}
+
+nav {
+    align-items: center;
+}
+
+p {
+
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+    grid-gap: 15px;
+    // width: 1110px;
+    // height: 1960px;
+    height: 100vh;
+    width: 80%;
+    background-color: red;
+    margin: 125px;
+    margin-top: 200px;
+}
+
+
+.image_1 {
+    grid-area: 1/1/8/4;
+}
+
+.image_2 {
+    grid-area: 1/1/8/4;
+}
+
+.image_3 {
+    grid-area: ///;
+}
+
+
+.image_4 {
+    grid-area: ///;
+}
+
+.image_5 {
+    grid-area: 1/4/7/7;
+}
+
+.image_6 {
+    grid-area: ///;
+}
+
+.image_7 {
+    grid-area: ///;
+}
+
+.image_8 {
+    grid-area: ///;
+}
+
+.image_9 {
+    grid-area: ///;
+}
+
+.image_10 {
+    grid-area: ///;
+}
+
+.image_11 {
+    grid-area: ///;
+}
+
+.image_12 {
+    grid-area: ///;
+}
