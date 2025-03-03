@@ -1,18 +1,58 @@
-$defaultxt {
-.mulish-<uniquifier> {
-    font-family: "Mulish", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
+@import './variables.scss';
+@import './headerfooter.scss';
+
+@mixin flexcenter {
+display: flex
+justify-content: center
+align-items: center
 }
 
-nav {
+
+footer,header,body {
+@mixin flexcenter
+}
+
+
+
+p {
+        font-family: "Mulish", serif;
+        font-weight: 300;
+}
+
+%headline-txt {
+        font-family: "Mulish", serif;   
+        font-weight: 700;
+        font-style: bold;
+      }
+    
+
+    h1 {
+        font-size: 100px;
+        color: blue;
+        font-family: "Mulish", serif;
+        font-weight: 200;
+    }
+
+.navbar {
+    background-color: aqua;
     align-items: center;
+    
+}
+
+header {
+display: flex;
 }
 
 p {
 
+}
+
+body {
+    margin: 20px;
+}
+
+h2 {
+    color: blue;
 }
 
 .main_container {
@@ -31,7 +71,9 @@ p {
 
 
 .image_1 {
-    grid-area: 1/1/8/4;
+    background: rgb(138, 61, 130);
+    grid-column: 1/4;
+    grid-row: 1/8;
 }
 
 .image_2 {
@@ -39,12 +81,12 @@ p {
 }
 
 .image_3 {
-    grid-area: ///;
+    grid-area: 1/1/1/1;
 }
 
 
 .image_4 {
-    grid-area: ///;
+    grid-area: 1/1/1/1;
 }
 
 .image_5 {
@@ -52,29 +94,29 @@ p {
 }
 
 .image_6 {
-    grid-area: ///;
+    grid-area: 1/1/1/1;
 }
 
 .image_7 {
-    grid-area: ///;
+    grid-area: 1/1/1/1;
 }
 
 .image_8 {
-    grid-area: ///;
+    grid-area: 1/1/1/1;
 }
 
 .image_9 {
-    grid-area: ///;
+    grid-area: 1/1/1/1;
 }
 
 .image_10 {
-    grid-area: ///;
+    grid-area: 1/1/1/1;
 }
 
 .image_11 {
-    grid-area: ///;
+    grid-area: 1/1/1/1;
 }
 
 .image_12 {
-    grid-area: ///;
+    grid-area: 1/1/1/1;
 }
